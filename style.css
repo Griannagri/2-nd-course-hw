@@ -68,7 +68,7 @@ body {
     padding-top: 374.11px;
 }
 
-.topgo{
+.topgo__button_go{
     font-family: Montserrat;
     width: 234.06px;
     height: 48.6px;
@@ -81,21 +81,21 @@ body {
 }
 
 
-.game1_button{
+.games__link_1{ 
     width: 379px;
     height: 300px;
     padding-bottom: 128px;
     padding-top: 128px; 
 }
 
-.game2_button{
+.games__link_2{
     width: 378px;
     height: 300px;
     padding-bottom: 128px;
     padding-top: 128px; 
 }
 
-.game3_button{
+.games__link_3{
     width: 379px;
     height: 300px;
     padding-bottom: 128px;
