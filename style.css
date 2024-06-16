@@ -37,7 +37,7 @@ body {
 } 
 
 
-.top_subtitle{
+.top__subtitle{
     width: 788.78px;
     height: 125.01px;
     left: 120.22px;
@@ -52,7 +52,7 @@ body {
     padding-top: 128px;
 }
 
-.top_title{
+.top__title{
     width: 481px;
     height: 64px;
     left: 120.22px;
