@@ -83,3 +83,4 @@ alert(user[info])
 
 var name_1 = prompt(`Введите ваше имя:`)
 alert(`Привет, ${name_1}`);
+
