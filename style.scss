@@ -112,13 +112,4 @@ span {
     text-align: left;
 } 
 
-@media (max-width: 767px) {
-    .center {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-}
-
-.top__subtitle{
-    text-align: center;
-  }
+@import 'mobile';
