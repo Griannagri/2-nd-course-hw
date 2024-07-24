@@ -64,7 +64,7 @@ let user = {
 
 // Lesson 9.1
 
-['city of residence']= `Moscow`;
+user['city of residence']= `Moscow`;
 
 // Lesson 9.2
 
