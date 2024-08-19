@@ -4,7 +4,20 @@
     padding-right: 16px;
   }
 
+  .top__title {
+    text-align: center;
+  }
+
   .top__subtitle{
     text-align: center;
+  }
+
+  .games{
+    justify-content: center;
+  }
+
+  .games__link_1 {
+    width: 343px;
+    height: 300px;
   }
 }
