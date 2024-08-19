@@ -31,6 +31,8 @@ body {
   padding-left: 120px;
   padding-top: 128px;
   padding-bottom: 128px;
+  display: flex;
+  gap: 32px;
 }
 
 .top__subtitle {
@@ -111,4 +113,5 @@ span {
 }
 .top__subtitle {
   text-align: center;
+
 }/*# sourceMappingURL=style.css.map */
