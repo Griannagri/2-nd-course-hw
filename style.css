@@ -25,9 +25,7 @@ body {
 }
 
 .games {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(12, 1fr);
+  flex-wrap: wrap;
   background-image: url(./img/Rectangle\ 5.png);
   background-size: cover;
   padding-left: 120px;
@@ -36,7 +34,6 @@ body {
 }
 
 .top__subtitle {
-  width: 788.78px;
   height: 125.01px;
   left: 120.22px;
   font-family: Montserrat;
