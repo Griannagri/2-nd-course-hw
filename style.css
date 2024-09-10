@@ -4,11 +4,8 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-}
-
-img{
-  max-width: 100%;
+  font-family: "Montserrat", sans-serif;  
+  overflow-x: hidden;
 }
 
 .center {
@@ -29,14 +26,28 @@ img{
 }
 
 .games {
-  flex-wrap: wrap;
   background-image: url(./img/Rectangle\ 5.png);
   background-size: cover;
-  padding-left: 120px;
   padding-top: 128px;
   padding-bottom: 128px;
-  display: flex;
-  gap: 32px;
+  padding-left: 120px;
+}
+
+.time__of__year {
+  background-image: url(./img/Rectangle\ 6.png);
+  height: 800px;
+  padding-left: 120px;
+  padding-top: 282px;
+  overflow: auto;
+  position: relative;
+  display: flex; /* Устанавливаем флекс-контейнер */
+  justify-content: space-between; /* Размещаем элементы с равным расстоянием между ними */
+  align-items: center; /* Выравнивание элементов по центру вертикально (по желанию) */
+}
+
+.text_timeofyear{
+display: flex; /* Делаем этот div тоже флекс-контейнером */
+flex-direction: column; /* Устанавливаем направление в колонку */
 }
 
 .top__subtitle {
@@ -52,12 +63,20 @@ img{
   padding-top: 128px;
 }
 
+.top__subtitle2 {
+  width: 377px;
+  height: 59px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
 .top__title {
-  width: 481px;
   height: 64px;
   left: 120.22px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
@@ -68,16 +87,49 @@ img{
   padding-top: 374.11px;
 }
 
-.topgo__button_go {
+.top__title2 {
+  width: 584px;
+  height: 64px;
   font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 32px;
+}
+
+.topgo__button_go{
   width: 234.06px;
   height: 48.6px;
   border-radius: 30px;
   background: #9C0332;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  color: #FFFFFF;
   margin-top: 482.11px;
   margin-left: 120px;
+}
+
+.topgo__button_go2{
+  width: 234.06px;
+  height: 48.6px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-family: Montserrat;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
   color: #FFFFFF;
+  margin-top: 32px;
+}
+
+.absolute-image{
+  position: absolute; /* Абсолютное позиционирование для изображения */
+  right: 116px; /* Отступ от правой части блока */
+  width: 485px; /* Установите желаемую ширину изображения */
 }
 
 .games__link_1 {
@@ -85,13 +137,16 @@ img{
   height: 300px;
   padding-bottom: 128px;
   padding-top: 128px;
+  height: auto; /* сохраняем пропорции */
 }
 
 .games__link_2 {
-  width: 378px;
+  width: 379px;
   height: 300px;
   padding-bottom: 128px;
   padding-top: 128px;
+  height: auto; /* сохраняем пропорции */
+  padding: 20px;
 }
 
 .games__link_3 {
@@ -99,9 +154,10 @@ img{
   height: 300px;
   padding-bottom: 128px;
   padding-top: 128px;
+  height: auto; /* сохраняем пропорции */
 }
 
-span {
+.span {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
@@ -110,19 +166,66 @@ span {
 }
 
 @media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
+
+  .top{
+  max-width: 767px;
+  height: 735px;
+
   }
-}
-.top__subtitle {
+  
+
+.top__subtitle{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
   text-align: center;
-  max-width: 100%;
+  width: 343px;
+  height: 77.44px;
+  padding-top: 238.69px;
+  left: 16px;
+  max-width: 767px;
+  right: 16px;
 }
 
-.games{
-  justify-content: center;
+.top__title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+    height: 66px;
+    padding-top: 349.08px;
+    left: 16px;
+    max-width: 767px;
+    right: 16px;
 }
+}
+  
+.games{
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+} 
+
+.games__link_1{
+    max-width: 100%; /* убрать ограничение максимальной ширины */
+
+}
+
+.games__link_2{
+  max-width: 100%; /* убрать ограничение максимальной ширины */
+  padding: 0;
+}
+
+.games__link_3{
+  max-width: 100%; /* убрать ограничение максимальной ширины */
+}
+
+
+
+
 
 
 /*# sourceMappingURL=style.css.map */
