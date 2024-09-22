@@ -1,180 +1,193 @@
 * {
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-  font-family: "Montserrat", sans-serif;  
-  overflow-x: hidden;
-}
+  body {
+    font-family: "Montserrat", sans-serif;  
+    overflow-x: hidden;
+  }
 
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
 
-.box {
-  width: 1440px;
-  height: 1024px;
-}
+  .box {
+    width: 1440px;
+    height: 1024px;
+  }
 
-.top {
-  background-image: url(./img/Rectangle\ 1.png);
-  height: 1024px;
-  background-size: cover;
-  background-position: center;
-}
+  .top {
+    width: 1440px;
+    background-image: url(./img/Rectangle\ 1.png);
+    height: 1024px;
+    background-size: cover;
+    background-position: center;
+  }
 
-.games {
-  background-image: url(./img/Rectangle\ 5.png);
-  background-size: cover;
-  padding-top: 128px;
-  padding-bottom: 128px;
+  .games {
+    width: 1440px;
+    background-image: url(./img/Rectangle\ 5.png);
+    background-size: cover;
+    height: 556px;
+
+  }
+
+  .time__of__year {
+    width: 1440px;
+    background-image: url(./img/Rectangle\ 6.png);
+    height: 800px;
+    overflow: auto;
+    position: relative;
+    display: flex;
+  }
+
+  .text_timeofyear{
+  display: flex; /* Делаем этот div тоже флекс-контейнером */
+  flex-direction: column; /* Устанавливаем направление в колонку */
   padding-left: 120px;
+  padding-top: 282px; 
 }
 
-.time__of__year {
-  background-image: url(./img/Rectangle\ 6.png);
-  height: 800px;
-  padding-left: 120px;
-  padding-top: 282px;
-  overflow: auto;
-  position: relative;
-  display: flex; /* Устанавливаем флекс-контейнер */
-  justify-content: space-between; /* Размещаем элементы с равным расстоянием между ними */
-  align-items: center; /* Выравнивание элементов по центру вертикально (по желанию) */
-}
+  .top__subtitle {
+    height: 125.01px;
+    left: 120.22px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 128px;
+  }
 
-.text_timeofyear{
-display: flex; /* Делаем этот div тоже флекс-контейнером */
-flex-direction: column; /* Устанавливаем направление в колонку */
-}
+  .top__subtitle2 {
+    width: 377px;
+    height: 59px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: left;
+    color: #FFFFFF;
+  }
 
-.top__subtitle {
-  height: 125.01px;
-  left: 120.22px;
-  font-family: Montserrat;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 78.02px;
-  text-align: left;
-  color: #FFFFFF;
-  position: absolute;
-  padding-top: 128px;
-}
+  .top__title {
+    height: 64px;
+    left: 120.22px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 374.11px;
+    display: block;
+  }
 
-.top__subtitle2 {
-  width: 377px;
-  height: 59px;
-  font-family: Montserrat;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 58.51px;
-  text-align: left;
-  color: #FFFFFF;
-}
+  .top__title2 {
+    width: 584px;
+    height: 64px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 32px;
+  }
 
-.top__title {
-  height: 64px;
-  left: 120.22px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;
-  color: #FFFFFF;
-  position: absolute;
-  padding-top: 374.11px;
-}
+  .topgo__button_go{
+    width: 234.06px;
+    height: 48.6px;
+    border-radius: 30px;
+    background: #9C0332;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    color: #FFFFFF;
+    margin-top: 482.11px;
+    margin-left: 120px;
+  }
 
-.top__title2 {
-  width: 584px;
-  height: 64px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 32px;
-  text-align: left;
-  color: #FFFFFF;
-  padding-top: 32px;
-}
+  .topgo__button_go2{
+    width: 234.06px;
+    height: 48.6px;
+    border-radius: 30px;
+    background: #9C0332;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    color: #FFFFFF;
+    margin-top: 32px;
+  }
 
-.topgo__button_go{
-  width: 234.06px;
-  height: 48.6px;
-  border-radius: 30px;
-  background: #9C0332;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.94px;
-  color: #FFFFFF;
-  margin-top: 482.11px;
-  margin-left: 120px;
-}
+  .absolute-image{
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    right: 116px; /* Отступ от правой части блока */
+    width: 485px; /* Установите желаемую ширину изображения */
+    padding-top: 233.5px;  }
 
-.topgo__button_go2{
-  width: 234.06px;
-  height: 48.6px;
-  border-radius: 30px;
-  background: #9C0332;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.94px;
-  color: #FFFFFF;
-  margin-top: 32px;
-}
+  .games__link_1 {
 
-.absolute-image{
-  position: absolute; /* Абсолютное позиционирование для изображения */
-  right: 116px; /* Отступ от правой части блока */
-  width: 485px; /* Установите желаемую ширину изображения */
-}
+  }
 
-.games__link_1 {
-  width: 379px;
-  height: 300px;
-  padding-bottom: 128px;
-  padding-top: 128px;
-  height: auto; /* сохраняем пропорции */
-}
+  .games__link_2 {
 
-.games__link_2 {
-  width: 379px;
-  height: 300px;
-  padding-bottom: 128px;
-  padding-top: 128px;
-  height: auto; /* сохраняем пропорции */
-  padding: 20px;
-}
+  }
 
-.games__link_3 {
-  width: 379px;
-  height: 300px;
-  padding-bottom: 128px;
-  padding-top: 128px;
-  height: auto; /* сохраняем пропорции */
-}
+  .games__link_3 {
 
-.span {
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 32px;
-  text-align: left;
-}
+  }
+  .style-img1{
+    padding-top: 128px;
+    padding-left: 120px;
+    margin-bottom: 128px;
+    padding-right: 32px;
+  }
+
+  .style-img2{
+    padding-top: 128px;
+    margin-bottom: 128px;
+    padding-right: 32px;
+  }
+
+  .style-img3{
+    padding-top: 128px;
+    margin-bottom: 128px;
+  }
+
+  .span {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
 
 @media (max-width: 767px) {
 
   .top{
-  max-width: 767px;
+  width: 375px;
   height: 735px;
-
   }
-  
 
-.top__subtitle{
+  .topgo__button_go{
+    margin-left: 70.47px;
+    margin-top: 447.7px;
+  }
+
+  .games{
+    max-width: 375px;
+    height: 1221px;
+  }
+
+  .top__subtitle{
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 700;
@@ -186,9 +199,10 @@ flex-direction: column; /* Устанавливаем направление в 
   left: 16px;
   max-width: 767px;
   right: 16px;
-}
+  word-wrap: break-word;
+  }
 
-.top__title{
+  .top__title{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -200,32 +214,90 @@ flex-direction: column; /* Устанавливаем направление в 
     left: 16px;
     max-width: 767px;
     right: 16px;
-}
-}
+  }
+
   
-.games{
-    position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
-} 
 
-.games__link_1{
-    max-width: 100%; /* убрать ограничение максимальной ширины */
+  .games__link_1{
+    padding-bottom: 0px;
+    width: 343px;
+  }
 
-}
-
-.games__link_2{
-  max-width: 100%; /* убрать ограничение максимальной ширины */
+  .games__link_2{
   padding: 0;
-}
+  width: 343px;
+  }
 
-.games__link_3{
-  max-width: 100%; /* убрать ограничение максимальной ширины */
-}
+  .games__link_3{
+  padding-top: 0px;
+  width: 343px;
+  }
 
+  .time__of__year{
+    width: 375px;
+    height: 653.61px;
+   }
 
+   .text_timeofyear{
+    padding-left: 16px;
+    padding-top: 51px;
+   }
 
+  .top__subtitle2{
+    width: 249px;
+    height: 39px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    padding-left: 46px;
+        
+    }
 
+    .top__title2{
+      width: 343px;
+      height: 66px;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+      text-align: center;      
+    }
 
+    .absolute-image{
+      right: 16px;
+      left: 16px;
+      padding-top: 332.6px;
+      width: 344px;
+    }
+
+    .style-img1{
+      width: 343px;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-bottom: 32.29px;
+    }
+
+    .style-img2{
+      width: 343px;
+      padding-top: 0px;  
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-bottom: 32.84px;
+    }
+    .style-img3{
+      width: 343px;
+      margin-bottom: 127.87px;
+      padding-top: 0px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .topgo__button_go2{
+      left: 70px;
+      position: sticky;
+    }
+  }
 
 /*# sourceMappingURL=style.css.map */
