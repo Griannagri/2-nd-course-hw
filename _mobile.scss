@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .top__title {
+    text-align: center;
+  }
+
+  .top__subtitle{
+    text-align: center;
+  }
+
+  .games{
+    justify-content: center;
+  }
+
+  .games__link_1 {
+    width: 343px;
+    height: 300px;
+  }
+}
